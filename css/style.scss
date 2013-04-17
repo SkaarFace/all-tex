@@ -8,18 +8,28 @@
 /* ==========================================================================
 Base styles:    opinionated defaults
 ========================================================================== */
-$mainColor:  #fff;
-$logoRed:  #E60303;
-$logoBlue: #0000ff;
+$mainColor:  hsl(0, 0%, 100%);
+$logoRed:  hsl(0, 97%, 46%);
+$logoBlue: darken(hsl(240, 100%, 50%), 20%);
+$menuLinkColor: hsl(0, 0%, 100%);
+$colorOffset: 30%;
+$shadowColor: #000;
+$buttonColor: hsl(244, 88%, 46%);
+$pageMaxWidth: 960px;
+$contentColor: #bbb;
 
-     html,button,input,select,textarea {
-    color: #000;
+html,button,input,select,textarea {
+    color: hsl(0, 0%, 0%);
 }
 
 body {
     font-size: 1em;
     line-height: 1.4;
     background-color: $mainColor;
+    max-width: $pageMaxWidth;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
 }
 
 /*
@@ -91,18 +101,44 @@ Chrome Frame prompt
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+
+@font-face
+{
+    font-family: Alegreya;
+    src: url('fonts/Alegreya-Black.otf')
+}
+
+@font-face
+{
+    font-family: Armata;
+    src: url('fonts/Armata-Regular.otf')
+}
+
 nav {
     width: 100%;
-    text-align:center;
+    background-color: $logoRed;
     ul
     {
         li
         {
             display: inline;
-            margin-right: 5%;
+            padding: 10px;
+
             a 
             {
-                display: inline-block;    
+                transition: 1s;
+                box-sizing: content-box;
+                display: inline-block;
+                color: darken($menuLinkColor, $colorOffset);
+                text-decoration:none;
+                text-shadow: 1px 1px 1px $shadowColor;
+                line-height:100%;
+                &:hover
+                {
+                    color: $menuLinkColor;
+                    text-shadow: 2px 2px 2px $shadowColor;
+                }
+                
             }
             
         }
@@ -110,23 +146,57 @@ nav {
     }
 }
 
+.mainContent
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: $contentColor;
+}
+
+H1
+{
+    font-family: Alegreya;
+    color: $logoRed;
+    text-shadow: 2px 2px $shadowColor;
+}
+
+H2
+{
+    font-family: Armata;
+    color: lighten($logoBlue, 40%);
+    text-shadow: 2px 2px $shadowColor;
+}
+
+.SloganArea
+{
+    background-color: darken($logoBlue, 10%);
+}
+
+.selected
+{
+    color: $menuLinkColor;
+}
+
 
 #Logo {
-    max-width: 25%;
+    max-width: 33%;
     float: left;
 }
 
 .LogoArea {
     width: 100%;
-
-    background-image: linear-gradient(to bottom, $logoBlue 0%, $logoRed 100%);
+    border-style: ridge;
+    border-color: $logoBlue;
 }
 
 .carousel {
     overflow: hidden;
-    width: 60%;
+    width: 50%;
     float: left;
-    margin: 5px 5px 5px 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px $shadowColor;
 }
 
 .panes {

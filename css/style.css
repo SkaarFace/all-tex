@@ -9,12 +9,16 @@
 Base styles:    opinionated defaults
 ========================================================================== */
 html, button, input, select, textarea {
-  color: #000; }
+  color: black; }
 
 body {
   font-size: 1em;
   line-height: 1.4;
-  background-color: white; }
+  background-color: white;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
 
 /*
  * Remove text-shadow in selection highlight:    h5bp.com/i
@@ -78,28 +82,70 @@ Chrome Frame prompt
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+@font-face {
+  font-family: Alegreya;
+  src: url("fonts/Alegreya-Black.otf"); }
+
+@font-face {
+  font-family: Armata;
+  src: url("fonts/Armata-Regular.otf"); }
+
 nav {
   width: 100%;
-  text-align: center; }
+  background-color: #e70404; }
   nav ul li {
     display: inline;
-    margin-right: 5%; }
+    padding: 10px; }
     nav ul li a {
-      display: inline-block; }
+      transition: 1s;
+      box-sizing: content-box;
+      display: inline-block;
+      color: #b3b3b3;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px black;
+      line-height: 100%; }
+      nav ul li a:hover {
+        color: white;
+        text-shadow: 2px 2px 2px black; }
+
+.mainContent {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #bbbbbb; }
+
+H1 {
+  font-family: Alegreya;
+  color: #e70404;
+  text-shadow: 2px 2px black; }
+
+H2 {
+  font-family: Armata;
+  color: #6666ff;
+  text-shadow: 2px 2px black; }
+
+.SloganArea {
+  background-color: #000066; }
+
+.selected {
+  color: white; }
 
 #Logo {
-  max-width: 25%;
+  max-width: 33%;
   float: left; }
 
 .LogoArea {
   width: 100%;
-  background-image: linear-gradient(to bottom, blue 0%, #e60303 100%); }
+  border-style: ridge;
+  border-color: #000099; }
 
 .carousel {
   overflow: hidden;
-  width: 60%;
+  width: 50%;
   float: left;
-  margin: 5px 5px 5px 5px; }
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px black; }
 
 .panes {
   list-style: none;
