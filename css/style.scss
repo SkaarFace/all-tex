@@ -9,14 +9,15 @@
 Base styles:    opinionated defaults
 ========================================================================== */
 $mainColor:  hsl(0, 0%, 100%);
-$logoRed:  hsl(0, 97%, 46%);
+$logoRed: red;
 $logoBlue: darken(hsl(240, 100%, 50%), 20%);
 $menuLinkColor: hsl(0, 0%, 100%);
 $colorOffset: 30%;
 $shadowColor: #000;
 $buttonColor: hsl(244, 88%, 46%);
-$pageMaxWidth: 960px;
-$contentColor: #bbb;
+$pageMaxWidth: 1360px;
+$contentColor: #fff;
+$imageSize: 30%;
 
 html,button,input,select,textarea {
     color: hsl(0, 0%, 0%);
@@ -25,6 +26,7 @@ html,button,input,select,textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    width: 95%;
     background-color: $mainColor;
     max-width: $pageMaxWidth;
     margin-left:auto;
@@ -117,8 +119,11 @@ Author's custom styles
 nav {
     width: 100%;
     background-color: $logoRed;
+    padding-top: 2%;
+    padding-bottom: 2%;
     ul
     {
+        padding-left: $imageSize;
         li
         {
             display: inline;
@@ -127,12 +132,10 @@ nav {
             a 
             {
                 transition: 1s;
-                box-sizing: content-box;
-                display: inline-block;
                 color: darken($menuLinkColor, $colorOffset);
+                font-size: 1.3em;
                 text-decoration:none;
                 text-shadow: 1px 1px 1px $shadowColor;
-                line-height:100%;
                 &:hover
                 {
                     color: $menuLinkColor;
@@ -149,28 +152,29 @@ nav {
 .mainContent
 {
     width: 100%;
-    box-sizing: border-box;
-    padding: 5px;
     background-color: $contentColor;
-}
-
-H1
-{
-    font-family: Alegreya;
-    color: $logoRed;
-    text-shadow: 2px 2px $shadowColor;
-}
-
-H2
-{
-    font-family: Armata;
-    color: lighten($logoBlue, 40%);
-    text-shadow: 2px 2px $shadowColor;
 }
 
 .SloganArea
 {
     background-color: darken($logoBlue, 10%);
+    padding: 2%;
+
+    H1
+    {
+        font-family: Alegreya;
+        color: $logoRed;
+        text-shadow: 2px 2px $shadowColor;
+        padding-left: $imageSize;
+    }
+
+    H2
+    {
+        padding-left: $imageSize;
+        font-family: Armata;
+        color: lighten($logoBlue, 40%);
+        text-shadow: 2px 2px $shadowColor;
+    }
 }
 
 .selected
@@ -178,25 +182,26 @@ H2
     color: $menuLinkColor;
 }
 
-
 #Logo {
-    max-width: 33%;
-    float: left;
+    position:absolute;
+    width: 30%;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
 .LogoArea {
     width: 100%;
-    border-style: ridge;
-    border-color: $logoBlue;
+    position: relative;
 }
 
 .carousel {
     overflow: hidden;
-    width: 50%;
-    float: left;
+    width: 100%;
     margin-right: 10px;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px $shadowColor;
+    z-index: 1;
 }
 
 .panes {
@@ -222,6 +227,19 @@ H2
     display: block;
     width: 100%;
     max-width: 100%;
+}
+
+#brandList
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-alight: center;
+    img
+    {
+        width: 20%;
+        display: inline-block;
+    }
 }
 
 @keyframes "carousel" {

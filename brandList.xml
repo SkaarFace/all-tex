@@ -1,103 +1,103 @@
-<?xml version"1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <brandList>
 	<brand>
 		<name>Deslauriers</name>
-		<img src="img/index_htm_files/165.png" alt="Deslauriers"/>
-		<a href="http://www.deslinc.com/"></a>
+		<source>./img/deslauriers.png</source>
+		<link>http://www.deslinc.com/</link>
 	</brand>
 	<brand>
 		<name>PSI</name>
-		<img src="img/index_htm_files/164.png" alt="PSI"/>
-		<a href="http://www.polytuffus.com/"></a>
+		<source>./img/psi.png</source>
+		<link>http://www.polytuffus.com/</link>
 	</brand>
 	<brand>
 		<name>Euclid Chemical</name>
-		<img src="img/index_htm_files/162.png" alt="Euclid Chemical"/>
-		<a href="http://www.euclidchemical.com/"></a>
+		<source>./img/euclid.png</source>
+		<link>http://www.euclidchemical.com/</link>
 	</brand>
 	<brand>
 		<name>Backer Rod</name>
-		<img src="img/index_htm_files/161.png" alt="Backer Rod"/>
-		<a href="http://www2.bayindustries.com/backerrod/"></a>
+		<source>./img/backer.png</source>
+		<link>http://www2.bayindustries.com/backerrod/</link>
 	</brand>
 	<brand>
 		<name>Contruction Foam Products</name>
-		<img src="img/index_htm_files/160.png" alt="Contruction Foam Products"/>
-		<a href="http://www.cfoamproducts.com/"></a>
+		<source>./img/constructionfp.png</source>
+		<link>http://www.cfoamproducts.com/</link>
 	</brand>
 	<brand>
 		<name>Owens Corning</name>
-		<img src="img/index_htm_files/159.png" alt="Owens Corning"/>
-		<a href="http://www.owenscorning.com/"></a>
+		<source>./img/owens.png</source>
+		<link>http://www.owenscorning.com/</link>
 	</brand>
 	<brand>
 		<name>Marshalltown</name>
-		<img src="img/index_htm_files/163.png" alt=""/>
-		<a href=""></a>
+		<source>./img/marshalltown.png</source>
+		<link>http://www.marshalltown.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Albion</name>
+		<source>./img/albion.png</source>
+		<link>http://www.albioneng.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>3M</name>
+		<source>./img/3m.png</source>
+		<link>http://www.3m.com</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Dow</name>
+		<source>./img/dow.png</source>
+		<link>http://www.dow.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Chemprobe</name>
+		<source>./img/c.png</source>
+		<link>http://www.tnemec.com/product/chemprobe/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>EaCo Chem</name>
+		<source>./img/eacochem.png</source>
+		<link>http://eacochem.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Lawless Group</name>
+		<source>./img/lawless.png</source>
+		<link>http://lawlessgroup.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>LM Products</name>
+		<source>./img/lmproducts.png</source>
+		<link>http://www.lmarchitectural.co.uk/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Makita</name>
+		<source>./img/makita.png</source>
+		<link>http://www.makita.com/en-us/Modules/Home/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Metzger/McGuire</name>
+		<source>./img/metzgermcguire.png</source>
+		<link>http://metzgermcguire.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Newborn</name>
+		<source>./img/newborn.png</source>
+		<link>http://www.newborncaulkguns.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Professional Products of Kansas, INC.</name>
+		<source>./img/professionalpk.png</source>
+		<link>http://watersealant.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Pearl Abrasive</name>
+		<source>./img/pearlabrasive.png</source>
+		<link>http://pearlabrasive.com/</link>
 	</brand>
 	<brand>
-		<name></name>
-		<img src="" alt=""/>
-		<a href=""></a>
+		<name>Vandex</name>
+		<source>./img/vandex.png</source>
+		<link>http://vandex-usa.com/</link>
 	</brand>
 </brandList>
