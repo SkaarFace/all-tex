@@ -19,6 +19,22 @@ $pageMaxWidth: 1360px;
 $contentColor: #fff;
 $imageSize: 30%;
 
+/*
+
+    Sass mixins declared here!
+============================================
+*/
+
+@mixin box-emboss($opacity, $opacity2){
+    box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+}
+
+@mixin letterpress($opacity){
+    text-shadow:white($opacity) 0 1px 0;
+}
+
+/*==========================================*/
+
 html,button,input,select,textarea {
     color: hsl(0, 0%, 0%);
 }
@@ -128,7 +144,6 @@ nav {
         {
             display: inline;
             padding: 10px;
-
             a 
             {
                 transition: 1s;
@@ -162,6 +177,7 @@ nav {
 
     H1
     {
+        @include letterpress(.9);
         font-family: Alegreya;
         color: $logoRed;
         text-shadow: 2px 2px $shadowColor;
@@ -170,6 +186,7 @@ nav {
 
     H2
     {
+        @include letterpress(.9);
         padding-left: $imageSize;
         font-family: Armata;
         color: lighten($logoBlue, 40%);
@@ -177,9 +194,10 @@ nav {
     }
 }
 
-.selected
+.active
 {
     color: $menuLinkColor;
+    text-shadow: 2px 2px 2px $shadowColor;              
 }
 
 #Logo {

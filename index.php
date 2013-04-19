@@ -25,17 +25,19 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <?php include 'header.php'; ?>
+        <?php
+        $page = 'index'; 
+        include 'header.php'; ?>
         
         <div id = "mainContent" class="mainContent">
 
             <div class="carousel">
                 <ul class="panes">
                     <li><a href="http://www.google.com"><img src="./img/images/pane-01.jpg"></img></a></li>
-                    <li><img src="./img/images/pane-02.jpg"></img></li>
-                    <li><img src="./img/images/pane-03.jpg"></img></li>
-                    <li><img src="./img/images/pane-04.jpg"></img></li>
-                    <li><img src="./img/images/pane-05.jpg"></img></li>
+                    <li><img src="./img/images/pane-02.jpg" /></li>
+                    <li><img src="./img/images/pane-03.jpg" /></li>
+                    <li><img src="./img/images/pane-04.jpg" /></li>
+                    <li><img src="./img/images/pane-05.jpg" /></li>
                 </ul>
             </div>
             

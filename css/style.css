@@ -8,6 +8,12 @@
 /* ==========================================================================
 Base styles:    opinionated defaults
 ========================================================================== */
+/*
+
+    Sass mixins declared here!
+============================================
+*/
+/*==========================================*/
 html, button, input, select, textarea {
   color: black; }
 
@@ -119,18 +125,21 @@ nav {
   background-color: #000066;
   padding: 2%; }
   .SloganArea H1 {
+    text-shadow: white(0.9) 0 1px 0;
     font-family: Alegreya;
     color: red;
     text-shadow: 2px 2px black;
     padding-left: 30%; }
   .SloganArea H2 {
+    text-shadow: white(0.9) 0 1px 0;
     padding-left: 30%;
     font-family: Armata;
     color: #6666ff;
     text-shadow: 2px 2px black; }
 
-.selected {
-  color: white; }
+.active {
+  color: white;
+  text-shadow: 2px 2px 2px black; }
 
 #Logo {
   position: absolute;

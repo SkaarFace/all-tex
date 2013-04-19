@@ -23,7 +23,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-         <?php include 'header.php'; ?>
+         <?php $page = 'project-gallery';include 'header.php'; ?>
         
         <?php include 'footer.php'; ?>
 

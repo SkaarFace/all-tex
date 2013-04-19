@@ -23,7 +23,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <?php include 'header.php'; ?>
+        <?php $page = 'about-us'; include 'header.php'; ?>
         
         <?php include 'footer.php'; ?>
 
