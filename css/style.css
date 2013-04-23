@@ -153,6 +153,29 @@ nav {
         nav ul li a:hover {
           color: white;
           text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); }
+  @media (max-width: 699px) {
+    nav ul {
+      padding-left: 0px; }
+      nav ul li {
+        display: block; }
+        nav ul li a {
+          font-size: 1em; } }
+
+.contactForm ul li {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px; }
+  .contactForm ul li label {
+    display: block; }
+  .contactForm ul li input, .contactForm ul li textarea {
+    width: 60%;
+    max-width: 300px;
+    border-radius: 5px; }
+  .contactForm ul li textarea {
+    height: 213px; }
+
+footer {
+  float: left; }
 
 .selected a {
   color: white;
@@ -168,9 +191,6 @@ nav {
   background-repeat: repeat-x;
   background-position: bottom;
   padding: 2%; }
-  @media (max-width: 699px) {
-    .SloganArea #Slogan {
-      display: none; } }
   .SloganArea H1 {
     text-indent: -9999px;
     overflow: hidden; }
@@ -180,10 +200,15 @@ nav {
     padding-left: 30%;
     color: white;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.7); }
-  .SloganArea img {
+  .SloganArea #Slogan {
     width: 70%;
     float: left;
     padding-left: 30%; }
+  @media (max-width: 699px) {
+    .SloganArea #Slogan {
+      display: none; }
+    .SloganArea H2 {
+      display: none; } }
 
 #Logo {
   position: absolute;
@@ -192,6 +217,10 @@ nav {
   left: 0;
   top: 0;
   z-index: 100; }
+  @media (max-width: 699px) {
+    #Logo {
+      position: relative;
+      width: 70%; } }
 
 .LogoArea {
   width: 100%;

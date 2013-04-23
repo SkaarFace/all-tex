@@ -22,6 +22,7 @@ $pageMaxWidth: 1360px;
 $contentColor: #fff;
 $imageSize: 30%;
 $default_rounded_amount: 5px;
+$breakPoint: 699px;
 
 /*
 
@@ -171,7 +172,7 @@ Author's custom styles
                 }
             }
 
-            @media (max-width: 699px)
+            @media (max-width: $breakPoint)
             {
                 width: 100%;
                 display: block;
@@ -184,7 +185,8 @@ Author's custom styles
     }
 }
 
-nav {
+nav 
+{
     width: 100%;
     @include background-image(url('../img/barbbottom.png'), 
         linear-gradient(top, $logoRed 0%, $navMidColor 25%, $logoRed 100%));
@@ -219,6 +221,54 @@ nav {
         }
         
     }
+    @media (max-width: $breakPoint)
+    {
+        ul
+        {
+            padding-left: 0px;
+            li
+            {
+                display: block;
+                a
+                {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+.contactForm
+{
+    ul
+    {
+        li
+        {
+            display: block;
+            margin-top: 20px;
+            letter-spacing: 2px;
+            label
+            {
+                display: block;
+            }
+            input, textarea
+            {
+                width: 60%;
+                max-width: 300px;
+                border-radius: 5px;;
+            }
+
+            textarea
+            {
+                height: 213px;
+            }
+        }
+    }
+}
+
+footer
+{
+    float:left;
 }
 
 .selected
@@ -241,13 +291,6 @@ nav {
     @include background-image(url("../img/barbtop.png"), 
         linear-gradient(top, $logoBlue 0%, $sloganMidColor 40%, $logoBlue 100%));
 
-    @media (max-width: 699px)
-    {
-        #Slogan
-        {
-            display: none;
-        }
-    }
     background-repeat: repeat-x;
     background-position: bottom;
     padding: 2%;
@@ -266,11 +309,25 @@ nav {
         color: white;
         text-shadow: 2px 2px $shadowColor;
     }
-    img
+    #Slogan
     {
         width: 70%;
         float:left;
         padding-left: $imageSize;
+    }
+
+        @media (max-width: $breakPoint)
+    {
+        #Slogan
+        {
+            display: none;
+        }
+
+        H2
+        {
+            display: none;
+        }
+        
     }
 }
 
@@ -281,6 +338,12 @@ nav {
     left: 0;
     top: 0;
     z-index: 100;
+
+    @media (max-width: $breakPoint)
+    {
+        position: relative;
+        width: 70%;
+    }
 }
 
 .LogoArea {

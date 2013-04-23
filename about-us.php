@@ -1,6 +1,38 @@
 
         <!-- Add your site or application content here -->
 <?php $page = 'about-us'; include 'header.php'; ?>
+
+        <div id = "aboutUs">
+            <H1>About All-Tex Supply</H1>
+            <p>
+                All-Tex Supply has been in business since 1982, and has 
+                established its self as the premier supplier of construction 
+                and building supplies and equipment.  We pride ourselves on our 
+                superior customer service and wide array of products from all the 
+                best brands and manufacturers in the industry.
+            </p>
+            <p>
+                We have a highly knowledgeable staff who can assist you with your 
+                construction supply and equipment needs. We have a large inventory 
+                of items, which mean that most items can be picked up or delivered 
+                within 24 hours, depending on location.
+            </p>
+            <p>
+                We have four locations currently serving the greater Texas state, 
+                and nationally, and our clients come from all over the United States.
+            </p>
+            <p>
+                If you need more information about our products, services, and locations, 
+                please contact a representative at one of our offices, and we will be 
+                happy to assist you.
+            </p>
+            <p>
+                We appreciate your business and confidence in us.
+            </p>
+            <p>
+                All-Tex Supply Team.
+            </p>
+        </div>
         
         <?php include 'footer.php'; ?>
 
