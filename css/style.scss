@@ -8,18 +8,20 @@
 /* ==========================================================================
 Base styles:    opinionated defaults
 ========================================================================== */
+@import 'bourbon/bourbon';
 $mainColor:  hsl(0, 0%, 100%);
 $logoRed: #7F0000;
 $logoBlue: #00002F;
 $menuLinkColor: hsl(0, 0%, 100%);
 $colorOffset: 30%;
-$shadowColor: #000;
+$shadowColor: rgba(0,0,0, .7);
 $sloganMidColor: #29207B;
 $buttonColor: hsl(244, 88%, 46%);
 $navMidColor: #FA3D43;
 $pageMaxWidth: 1360px;
 $contentColor: #fff;
 $imageSize: 30%;
+$default_rounded_amount: 5px;
 
 /*
 
@@ -122,22 +124,70 @@ Chrome Frame prompt
 Author's custom styles
 ========================================================================== */
 
-@font-face
+#productHeader
 {
-    font-family: Alegreya;
-    src: url('fonts/Alegreya-Black.otf')
+    padding-top: 2%;
+    padding-bottom: 2%;
+    @include linear-gradient(top, $logoRed 0%, $navMidColor 25%, $logoRed 100%);
+    border-radius: 5px;
+    color: $menuLinkColor;
 }
 
-@font-face
+#productList
 {
-    font-family: Armata;
-    src: url('fonts/Armata-Regular.otf')
+    width: 100%;
+    ul
+    {
+        width: 100%;
+        li
+        {
+            width: 20%;
+            display: inline-block;
+            vertical-align: top;
+            .productCategory
+            {
+                transition: 1s;
+                font-size: 1em;
+                font-family: "Arial";
+            }
+
+            .productType
+            {
+                font-size: .8em;
+                color: $logoRed;
+
+            }
+
+            a
+            {
+                transition: 1s;
+                text-decoration: none;
+                font-size: .8em;
+                display: block;
+                color: darken($menuLinkColor, $colorOffset);
+                &:hover
+                {
+                    color: black;
+                }
+            }
+
+            @media (max-width: 699px)
+            {
+                width: 100%;
+                display: block;
+                .productCategory
+                {
+                    font-size: 2em;
+                }
+            }
+        }
+    }
 }
 
 nav {
     width: 100%;
-    background-image: url('../img/barbbottom.png'),
-    -moz-linear-gradient(top, $logoRed 0%, $navMidColor 25%, $logoRed 100%);
+    @include background-image(url('../img/barbbottom.png'), 
+        linear-gradient(top, $logoRed 0%, $navMidColor 25%, $logoRed 100%));
     background-repeat: repeat-x;
     background-position: top;
     padding-top: 1.3%;
@@ -155,6 +205,7 @@ nav {
                 transition: 1s;
                 color: darken($menuLinkColor, $colorOffset);
                 font-size: 1.3em;
+                font-family: "Arial";
                 text-decoration:none;
                 text-shadow: 1px 1px 1px $shadowColor;
                 &:hover
@@ -170,6 +221,15 @@ nav {
     }
 }
 
+.selected
+{
+    a
+    {
+    color: $menuLinkColor;
+    text-shadow: 2px 2px 2px $shadowColor;    
+    }          
+}
+
 .mainContent
 {
     width: 100%;
@@ -178,8 +238,16 @@ nav {
 
 .SloganArea
 {
-    background-image: url("../img/barbtop.png"),
-    -moz-linear-gradient(top, $logoBlue 0%, $sloganMidColor 40%, $logoBlue 100%);
+    @include background-image(url("../img/barbtop.png"), 
+        linear-gradient(top, $logoBlue 0%, $sloganMidColor 40%, $logoBlue 100%));
+
+    @media (max-width: 699px)
+    {
+        #Slogan
+        {
+            display: none;
+        }
+    }
     background-repeat: repeat-x;
     background-position: bottom;
     padding: 2%;
@@ -193,8 +261,8 @@ nav {
     H2
     {
         @include letterpress(.9);
+        font-family: "Arial";
         padding-left: $imageSize;
-        font-family: Armata;
         color: white;
         text-shadow: 2px 2px $shadowColor;
     }
@@ -206,15 +274,10 @@ nav {
     }
 }
 
-.active
-{
-    color: $menuLinkColor;
-    text-shadow: 2px 2px 2px $shadowColor;              
-}
-
 #Logo {
     position:absolute;
     width: 30%;
+    max-width: 325px;
     left: 0;
     top: 0;
     z-index: 100;

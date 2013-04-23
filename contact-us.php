@@ -1,30 +1,29 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <?php $page = 'contact-us'; include 'header.php'; ?>
+<?php $page = 'contact-us'; include 'header.php'; ?>
         
+        <form id="redemption" method="post">
+            <H1>Request Information</H1>
+            <fieldset>
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input id = "name" name="name" type="text" required aria-required="true" >
+                </div>
+                <div>
+                    <label for="telephone">Phone Number:</label>
+                    <input id ="telephone" name="telephone" type="tel" placeholder="123-456-7890"
+                        required aria-required="true" >
+                </div>
+                <div>
+                    <label for="company">Company:</label>
+                    <input id="company" name="company" type="text" >
+                </div>
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input id="email" name="email" type="email" required aria-required="true" >
+                </div>
+        </form>
+
+
         <?php include 'footer.php'; ?>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

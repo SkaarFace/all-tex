@@ -1,31 +1,36 @@
 $(document).ready(function(){
-	alert("running");
-	var xmlDoc = loadXMLDoc("productList.xml");
-	var x = xmlDoc.getElementsByTagName("singleProduct");
-	alert(x[0].childNodes[0].nodeName);
-	for(i=0; i<x.length; i++)
-	{
-		var description = x[i].childNodes[0].nodeValue;
-		var type = x[i].childNodes[1].nodeValue;
-		alert(description + " " + type);
+	$.ajax({
+		type: "GET",
+		url: "productList.xml",
+		dataType: "xml",
+		success: xmlParser
+	});
+
+});
+
+function xmlParser(xml){
+	$(xml).find('singleProduct').each(function(){
+		var description = $(this).find('description').text();
+		var type = $(this).find('type').text();
 		var descriptionByID = description.replace(/\s/g, '');
 		var typeByID = type.replace(/\s/g, '');
-
 		if($('#' + descriptionByID).length === 0)
 		{
-			var descriptionElement = '<div id =' + descriptionByID + '>' + '<p>' + description + '</p>' + '</div>';
-			$(descriptionElement).appendTo('#productList');
+			var descriptionElement = '<li><div class = "productCategory" id =' 
+				+ descriptionByID + '>' + '<p>' 
+				+ description + '</p>' + '</div></li>';
+			$(descriptionElement).appendTo('#productList > ul');
 		}
 		if($('#' + typeByID).length === 0)
 		{
-			var typeElement = '<div id =' + typeByID + '>' + '<p>' + type + '</p>' + '</div>';
+			var typeElement = '<div class = "productType" id =' + typeByID + '>' 
+				+ '<p>' + type + '</p>' + '</div>';
 			$(typeElement).appendTo('#' + descriptionByID);
 		}
-		var company = x[i].parentNode.parentNode;
-		var companyString = '<a href = ' + company.childNode[0] + '>' + company.childNode[1] + '</a>';
+		var companyString = '<a href = ' + $(this).parent().parent().find('link').text() + '>' 
+			+ $(this).parent().parent().find('name').text() + '</a>';
 		$(companyString).appendTo('#' + typeByID);
-	}
-
-});
+		});
+}
 
 
