@@ -9,12 +9,14 @@
 Base styles:    opinionated defaults
 ========================================================================== */
 $mainColor:  hsl(0, 0%, 100%);
-$logoRed: red;
-$logoBlue: darken(hsl(240, 100%, 50%), 20%);
+$logoRed: #7F0000;
+$logoBlue: #00002F;
 $menuLinkColor: hsl(0, 0%, 100%);
 $colorOffset: 30%;
 $shadowColor: #000;
+$sloganMidColor: #29207B;
 $buttonColor: hsl(244, 88%, 46%);
+$navMidColor: #FA3D43;
 $pageMaxWidth: 1360px;
 $contentColor: #fff;
 $imageSize: 30%;
@@ -134,9 +136,13 @@ Author's custom styles
 
 nav {
     width: 100%;
-    background-color: $logoRed;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    background-image: url('../img/barbbottom.png'),
+    -moz-linear-gradient(top, $logoRed 0%, $navMidColor 25%, $logoRed 100%);
+    background-repeat: repeat-x;
+    background-position: top;
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+    border-bottom: 3px solid darken($menuLinkColor, $colorOffset);
     ul
     {
         padding-left: $imageSize;
@@ -172,16 +178,16 @@ nav {
 
 .SloganArea
 {
-    background-color: darken($logoBlue, 10%);
+    background-image: url("../img/barbtop.png"),
+    -moz-linear-gradient(top, $logoBlue 0%, $sloganMidColor 40%, $logoBlue 100%);
+    background-repeat: repeat-x;
+    background-position: bottom;
     padding: 2%;
 
     H1
     {
-        @include letterpress(.9);
-        font-family: Alegreya;
-        color: $logoRed;
-        text-shadow: 2px 2px $shadowColor;
-        padding-left: $imageSize;
+        text-indent: -9999px;
+        overflow:hidden;
     }
 
     H2
@@ -189,8 +195,14 @@ nav {
         @include letterpress(.9);
         padding-left: $imageSize;
         font-family: Armata;
-        color: lighten($logoBlue, 40%);
+        color: white;
         text-shadow: 2px 2px $shadowColor;
+    }
+    img
+    {
+        width: 70%;
+        float:left;
+        padding-left: $imageSize;
     }
 }
 

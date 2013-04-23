@@ -1,6 +1,7 @@
 <header class = "LogoArea">
     <img id = "Logo" src="./img/index_htm_files/logo.png" alt="All-Tex Supply Logo" />
     <div class="SloganArea">
+        <img id = "Slogan" src = "./img/slogan.png" alt = "1st In Helping Buildings LAST" />
         <h1>
             1st In Helping Buildings LAST
         </h1>

@@ -1,5 +1,1549 @@
-<?xml version"1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <productList>
-	
-
+<company>
+<name>
+Sonneborn
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE BONDING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE CLEANERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE CURING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE HARDENERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE GROUTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE LEVELING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FORM RELEASE AGENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HYDRAULIC CEMENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+POLYMER PATCHING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+WATER REPELLENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CLEAR DECK SEALERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+MASONARY COATINGS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+EPOXY JOINT FILLERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+FUEL RESISTANT CAULK
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+URETHANE SEALANTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+SECURITY CAULK
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+POLYUREA
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CEMENTITIOUS SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+DECK COATINGS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FLUID APPLIED SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY INJECTION
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY FLOORING
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Euclid
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE BONDING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE CURING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE GROUTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE LEVELING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FORM RELEASE AGENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HYDRAULIC CEMENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+POLYMER PATCHING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+EPOXY JOINT FILLERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+SECURITY CAULK
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+POLYUREA
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CEMENTITIOUS SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY INJECTION
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY FLOORING
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Master Builders
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE BONDING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE CURING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE HARDENERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE GROUTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE LEVELING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FORM RELEASE AGENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+POLYMER PATCHING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+EPOXY JOINT FILLERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CEMENTITIOUS SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY INJECTION
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY FLOORING
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Eacochem
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE CLEANERS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Euclid Chemical
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE HARDENERS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Ardex
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE GROUTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE LEVELING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+POLYMER PATCHING
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+EPOXY JOINT FILLERS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+POLYUREA
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Chemprobe
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE STAINS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+WATER REPELLENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CLEAR DECK SEALERS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+L M Scoffield
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE STAINS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Concrete Colors Inc.
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CONCRETE STAINS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Thoro
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HYDRAULIC CEMENTS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Vandex
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HYDRAULIC CEMENTS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Professional Products
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+WATER REPELLENTS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Chem-Trete
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+WATER REPELLENTS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Hydrozo
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+WATER REPELLENTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CLEAR DECK SEALERS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Chemtrete
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+CLEAR DECK SEALERS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Tremco
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+GLAZING MATERIALS
+</description>
+<type>
+GLAZING TAPES
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+GLAZING MATERIALS
+</description>
+<type>
+GASKETS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+GLAZING MATERIALS
+</description>
+<type>
+STRUCTURAL SILICONES
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+URETHANE SEALANTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+SILICONE SEALANTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+PRE-FORMED SILICONES
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+HIGHWAY SILICONE
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+DECK COATINGS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FLUID APPLIED SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HOT-MELT SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+PROTECTION BOARDS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+DRAINAGE MATS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FIRE RATED CAULK
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Pecora
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+GLAZING MATERIALS
+</description>
+<type>
+GLAZING TAPES
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+General Electric
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+GLAZING MATERIALS
+</description>
+<type>
+STRUCTURAL SILICONES
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+SILICONE SEALANTS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Sonneborn Henry
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+MASTICS and EMULSIONS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Henry
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+GYPSUM JOINT TAPE
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HOT-MELT SYSTEMS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Tamko
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+GYPSUM JOINT TAPE
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+SHEET SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+PROTECTION BOARDS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Foamula-R
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+INSULATION
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+PROTECTION BOARDS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Dow Board
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+INSULATION
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+PROTECTION BOARDS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+DeNeef
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+CHEMICAL GROUTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+WATERSTOPS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY INJECTION
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Paraseal Bentonite
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+WATERSTOPS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Cetco
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+WATERSTOPS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+BENTONITE SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+SHEET SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HOT-MELT SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+DRAINAGE MATS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Carlisle/Mirafi
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+WATERSTOPS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+SHEET SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HOT-MELT SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+DRAINAGE MATS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Tamms/Euclid
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+MASONARY COATINGS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+General Electric - VIP
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+MASONARY COATINGS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+MM-80
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+EPOXY JOINT FILLERS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Vulkem
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+DAMP-PROOFING
+</description>
+<type>
+FUEL RESISTANT CAULK
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+URETHANE SEALANTS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+SECURITY CAULK
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FLUID APPLIED SYSTEMS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Wasco/York
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+FLASHING
+</description>
+<type>
+COPPER and METAL
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+FLASHING
+</description>
+<type>
+POLYVINYL CHLORIDE
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Advanced Flashing
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+FLASHING
+</description>
+<type>
+COPPER and METAL
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+FLASHING
+</description>
+<type>
+POLYVINYL CHLORIDE
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Nervastral
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+FLASHING
+</description>
+<type>
+POLYVINYL CHLORIDE
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Lymtal
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+PRE-MOLDED URETHANE
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+DECK COATINGS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+G. E. Silicones
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+PRE-FORMED SILICONES
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Denver Foam
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+JOINT BACKING
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Sof-Rod
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+JOINT BACKING
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Closed Cell
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+JOINT BACKING
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Hot Rod
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+JOINT BACKING
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Pearl
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+SEALANTS and CAULKS
+</description>
+<type>
+DIAMOND BLADES
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Paraseal
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+BENTONITE SYSTEMS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Mirafi
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+BENTONITE SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+FLUID APPLIED SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+PROTECTION BOARDS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Poly Guard
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+SHEET SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+HOT-MELT SYSTEMS
+</type>
+</singleProduct>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+DRAINAGE MATS
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Carlisle
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EPOXY INJECTION
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Caulk Guns
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EQUIPMENT
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Sprayers
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EQUIPMENT
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Tape - Masking/Duct
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EQUIPMENT
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+3M Spry Adhesive
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EQUIPMENT
+</type>
+</singleProduct>
+</products>
+</company>
+<company>
+<name>
+Deslauriers - Horseshoe Shims
+</name>
+<link>
+</link>
+<products>
+<singleProduct>
+<description>
+CONCRETE SPECIALTY
+</description>
+<type>
+EQUIPMENT
+</type>
+</singleProduct>
+</products>
+</company>
 </productList>
