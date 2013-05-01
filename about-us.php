@@ -2,6 +2,8 @@
         <!-- Add your site or application content here -->
 <?php $page = 'about-us'; include 'header.php'; ?>
 
+    <section id = "mainAboutContent">
+
         <div id = "aboutUs">
             <H1>About All-Tex Supply</H1>
             <p>
@@ -33,6 +35,8 @@
                 All-Tex Supply Team.
             </p>
         </div>
+
+    </section>
         
         <?php include 'footer.php'; ?>
 

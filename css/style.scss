@@ -134,6 +134,29 @@ Author's custom styles
     color: $menuLinkColor;
 }
 
+#mainAboutContent
+{
+    background: url("../img/gallery/large/Azure_3.JPG") no-repeat center;
+    @include background-size(cover);
+}
+
+#aboutUs
+{
+    margin: 0 auto;
+    padding: 1em;
+    width: 90%;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+}
+
+@media (min-width: $breakPoint)
+{
+    #aboutUs
+    {
+        width: 50%;
+    }
+}
+
 #productList
 {
     width: 100%;
@@ -200,7 +223,7 @@ nav
         padding-left: $imageSize;
         li
         {
-            display: inline;
+            display: inline-block;
             padding: 10px;
             a 
             {
@@ -223,19 +246,26 @@ nav
     }
     @media (max-width: $breakPoint)
     {
-        ul
-        {
-            padding-left: 0px;
-            li
+            ul
             {
-                display: block;
-                a
+                padding-left: 0px;
+                li
                 {
-                    font-size: 1em;
+                    display: block;
+                    a
+                    {
+                        font-size: 1em;
+                    }
                 }
             }
-        }
     }
+}
+
+#galleria
+{
+    width: 100%;
+    height: 400px;
+    background: $mainColor;
 }
 
 .contactForm
@@ -268,7 +298,28 @@ nav
 
 footer
 {
-    float:left;
+    width: 100%;
+    margin-top: 1em;
+    float: left;
+    color: #e5e5e5;
+    @include background-image(
+        linear-gradient(right, lighten($logoBlue, 20%) 40%, $sloganMidColor 100%));
+    p
+    {
+        padding-left: 1em;
+        text-align: left;
+    }
+    a
+    {
+        @include transition-duration(.5s);
+        text-decoration: none;
+        color: darken($menuLinkColor, $colorOffset);
+
+        &:hover
+        {
+            color: $menuLinkColor;
+        }
+    }
 }
 
 .selected
@@ -331,6 +382,21 @@ footer
     }
 }
 
+#ourMission
+{
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 90%;
+    border: 2px solid black;
+    background-color: #e5e5e5;
+}
+
+@media(minwidth: $breakPoint)
+{
+    width: 70%;
+}
+
 #Logo {
     position:absolute;
     width: 30%;
@@ -387,15 +453,31 @@ footer
 
 #brandList
 {
-    width: 60%;
+    
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1em;
     text-alight: center;
+    border: 2px solid darken(red, 10%);
     img
     {
         width: 20%;
         display: inline-block;
     }
+    h3
+    {
+        text-align: left;
+        font-size:1.2em;
+        font-family: helvetica;
+        background-color: darken(red, 10%);
+        color: $mainColor;
+    }
+}
+
+@media (min-width: $breakPoint)
+{
+    width: 60%;
 }
 
 @keyframes "carousel" {

@@ -30,6 +30,7 @@
             </div>
 
             <div id = "brandList">
+            <h3>The Brands You Know, The Brands We Trust</h3>
             </div>
         </div>
 
