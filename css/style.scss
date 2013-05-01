@@ -339,32 +339,39 @@ footer
 
 .SloganArea
 {
-    @include background-image(url("../img/barbtop.png"), 
-        linear-gradient(top, $logoBlue 0%, $sloganMidColor 40%, $logoBlue 100%));
-
+    @include background-image(url("../img/barbtop.png"),
+    linear-gradient(top, $logoBlue 0%, $sloganMidColor 40%, $logoBlue 100%));
+    //@include background-image(linear-gradient(top, $logoBlue 0%, $sloganMidColor 40%, $logoBlue 100%));
+    // background: url("../img/barbtop.png") repeat-x bottom;
+    //background: url("../img/slogan.png") no-repeat center;
     background-repeat: repeat-x;
     background-position: bottom;
-    padding: 2%;
+    z-index: 100;
 
     H1
     {
         text-indent: -9999px;
         overflow:hidden;
     }
-
-    H2
-    {
-        @include letterpress(.9);
-        font-family: "Arial";
-        padding-left: $imageSize;
-        color: white;
-        text-shadow: 2px 2px $shadowColor;
-    }
     #Slogan
     {
-        width: 70%;
-        float:left;
+        @include background-image(url("../img/slogan.png"));
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
         padding-left: $imageSize;
+        padding-bottom: 2em;
+        height: 75px;
+        width: 70%;
+        z-index: -1;
+
+        H2
+        {
+            @include letterpress(.9);
+            font-family: "Arial";
+            color: white;
+            text-shadow: 2px 2px $shadowColor;
+        }
     }
 
         @media (max-width: $breakPoint)

@@ -30,14 +30,16 @@
 
 <header class = "LogoArea">
     <div class="SloganArea clearfix">
-        <img id = "Logo" src="./img/index_htm_files/logo.png" alt="All-Tex Supply Logo" />
-        <img id = "Slogan" src = "./img/slogan.png" alt = "1st In Helping Buildings LAST" />
-        <h1>
-            1st In Helping Buildings LAST
-        </h1>
-        <h2>
-            Wholesale Distributor of Specialty Building Materials
-        </h2>
+        <div id = "Slogan">
+            <img id = "Logo" src="./img/index_htm_files/logo.png" alt="All-Tex Supply Logo" />
+            <!--<img id = "Slogan" src = "./img/slogan.png" alt = "1st In Helping Buildings LAST" />-->
+            <h1>
+                1st In Helping Buildings LAST
+            </h1>
+            <h2>
+                Wholesale Distributor of Specialty Building Materials
+            </h2>
+        </div>
     </div>
     <nav>
         <ul>
